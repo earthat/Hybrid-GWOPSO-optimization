@@ -80,7 +80,7 @@ while l<Max_iter
             X3=Delta_pos(j)-A3*D_delta; % Equation (3.5)-part 3
             
             
-            Positions(i,j)=X1+X2+X3/3;
+            Positions(i,j)=(X1+X2+X3)/3;
         end
     end
     
